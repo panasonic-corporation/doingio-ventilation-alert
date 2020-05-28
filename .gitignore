@@ -1,0 +1,5 @@
+*.swp
+*.bin
+*.zip
+.DS_Store
+.vscode
