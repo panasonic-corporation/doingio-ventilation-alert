@@ -1,6 +1,6 @@
 # Do It Ourselves Project
 
-[Do It Ourselves プロジェクト詳細](https://panasonic.co.jp/design/flf/works/dio/)
+### [Do It Ourselves プロジェクト詳細](https://panasonic.co.jp/design/flf/works/dio/)
 
 <a href="https://panasonic.co.jp/design/flf/works/dio/"><img width="500px" src="./docs/images/dio_main.jpg"></a>
 
