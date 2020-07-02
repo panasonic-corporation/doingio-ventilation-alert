@@ -85,7 +85,7 @@ M5StickCを認識しない場合は下記リンクからドライバをインス
 
 ### 3.6 書き込み
 右上の"Burn"ボタンをクリックしてプログラムを書き込んでください。  
-(書き込み中にスピーからノイズ音が発生することがありますが、問題ありません。)  
+(書き込み中にスピーカーからノイズ音が発生することがありますが、問題ありません。)  
 
 右下のウィンドウに"Staying in bootloader."もしくは"Hard resetting vir RTS pin..."と表示されたら書き込み完了です。
 
@@ -122,7 +122,7 @@ M5マーク側面のプッシュスイッチを6秒長押しして電源をOFF�
 
 | ファイル名 | 画像 | 難易度 |
 |-------|-------|-------|
-| [bird.pdf](../docs/data/bird.pdf) | <img width="150px" src="../docs/images/bird.jpg"> | Middle |
+| [bird.pdf](../docs/data/bird.pdf) | <img width="150px" src="../docs/images/bird.jpg"> | Medium |
 | [flower.pdf](../docs/data/flower.pdf) | <img width="150px" src="../docs/images/flower.jpg"> | Easy |
 | [plant.pdf](../docs/data/plant.pdf) | <img width="150px" src="../docs/images/plant.jpg"> | Easy |
 | [spring.pdf](../docs/data/spring.pdf) | <img width="150px" src="../docs/images/spring.jpg"> | Easy |
