@@ -1,3 +1,4 @@
+Language : jp | [en](./README_en.md)
 # Do It Ourselves Project
 
 ### [Do It Ourselves プロジェクト詳細](https://panasonic.co.jp/design/flf/works/dio/)
