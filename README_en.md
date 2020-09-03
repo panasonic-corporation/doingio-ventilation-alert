@@ -1,7 +1,7 @@
 Language : [jp](./README.md) | en
-# Do It Ourselves Project
+# D+IO Project
 
-### [Find out more about the Do It Ourselves Project here](https://panasonic.net/design/flf/works/dio/)
+### [Find out more about the D+IO Project here](https://panasonic.net/design/flf/works/dio/)
 
 <a href="https://panasonic.net/design/flf/works/dio/"><img width="500px" src="./docs/images/dio_main.jpg"></a>
 
