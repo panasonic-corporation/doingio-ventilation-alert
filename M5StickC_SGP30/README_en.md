@@ -115,7 +115,7 @@ Blow on the sensor, and confirm that the sound and the red LED light on the M5St
 
 ## 4. Make a cover (body)
 
-Build your own cover with flexible ideas! Share your cover on Twitter and Instagram with the hashtag #dio_product.
+Build your own cover with flexible ideas! <!--Share your cover on Twitter and Instagram with the hashtag #dio_product.-->
 
 <img width="400px" src="../docs/images/body_idea.png">
 
@@ -210,7 +210,7 @@ Insert both ends of D into F to make a beak to finish the cover. Place the devic
     The alert does not continue to sound. After the CO2 concentration exceeds 1,000 ppm, the audible alert will be reactivated only after the concentration first falls below 700 ppm. (The LED light stays on until it falls below 700 ppm.)
 
 # 【For Creators】 Software Improvement and Modification
-The DIO Project allows users to modify and upgrade the recipes. Use your creativity to update the DIO PRODUCTS. We look forward to your suggestions for fixing code and making improvements posted on PullRequest and Issue.
+The D+IO Project allows users to modify and upgrade the recipes. Use your creativity to update the D+IO PRODUCTS. We look forward to your suggestions for fixing code and making improvements posted on PullRequest and Issue.
 
 ### Packaging Method
 How to generate a zip file to burn from M5Burner
