@@ -3,11 +3,11 @@ Language : [jp](./README.md) | en
 
 ### [Find out more about the D+IO Project here](https://panasonic.net/design/flf/works/dio/)
 
-<a href="https://panasonic.net/design/flf/works/dio/"><img width="500px" src="./docs/images/dio_main.jpg"></a>
+<a href="https://panasonic.net/design/flf/works/dio/"><img width="500px" src="https://panasonic.co.jp/design/flf/assets/img/works/dio/dio_icon.jpg"></a>
 
 ## Ventilation Alert Device
 
-<img width="500px" src="./docs/images/dio_ventilation_alert.jpg">
+<img width="500px" src="https://panasonic.co.jp/design/flf/assets/img/works/dio/dio_ventilation_alert.jpg">
 
 The CO2 ventilation alert device monitors the indoor CO2 concentration, and a sound and light alert is activated when the CO2 concentration exceeds a certain level to encourage ventilation.
 
