@@ -3,11 +3,11 @@ Language : jp | [en](./README_en.md)
 
 ### [D+IO プロジェクト詳細](https://panasonic.co.jp/design/flf/works/dio/)
 
-<a href="https://panasonic.co.jp/design/flf/works/dio/"><img width="500px" src="https://panasonic.co.jp/design/flf/assets/img/works/dio/dio_icon.jpg"></a>
+<a href="https://panasonic.co.jp/design/flf/works/doing_io/"><img width="500px" src="https://panasonic.co.jp/design/flf/assets/img/works/doing_io/doing_io_icon.jpg"></a>
 
 ## Ventilation Alert (CO2換気アラートデバイス)
 
-<img width="500px" src="https://panasonic.co.jp/design/flf/assets/img/works/dio/dio_ventilation_alert.jpg">
+<img width="500px" src="https://panasonic.co.jp/design/flf/assets/img/works/doing_io/doing_io_ventilation_alert.jpg">
 
 CO2換気アラートデバイスは、室内のCO2濃度を計測し、一定の二酸化炭素濃度を超えると音と光でアラートを出し、換気を促すデバイスです。
 
