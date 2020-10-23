@@ -1,0 +1,18 @@
+{
+    "name": "ventilation_alert_SGP30_M5StickC",
+    "description": "",
+    "author": "Daichi Kawashima",
+    "repository": "https://github.com/curdeveryday/test-firmware",
+    "firmware_category": {
+        "path": "firmware",
+        "device": [
+            "M5Stack StickC"
+        ],
+        "default_baud": 750000
+    },
+    "version": "0.0.1",
+    "framework": "Arduino IDE",
+    "commands": [
+        "--chip esp32 --port %port --baud %baud --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0x10000 firmware_0x10000.bin"
+    ]
+}
