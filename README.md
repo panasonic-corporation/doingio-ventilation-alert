@@ -22,5 +22,5 @@ CO2換気アラートデバイスは、室内のCO2濃度を計測し、一定�
 
 | Project Name | MCU | Sensor | 補足 |
 |--------|--------|--------|--------|
-|[M5StickC_SGP30](https://github.com/panasonic-corporation/doingio-ventilation-alert-docs/M5StickC_SGP30_ja.md)| M5StickC | SGP30 | 注意) 使用するセンサーSGP30はガスセンサーで、空気の汚れなどを示すVOC値を測定し、そこから等価二酸化炭素濃度（eCO2）を計算して出力するものであるため、正確なCO2濃度を計測できるものではありません。温度や湿度によっても影響される上、アルコールなどにも反応するため、あくまでも目安として使用してください。<br><br> ※ より正確に測定できるCO2センサーを用いた作り方も今後紹介する予定です。|
-|[AtomEcho_SGP30](https://github.com/panasonic-corporation/doingio-ventilation-alert-docs/AtomEcho_SGP30_ja.md)| ATOM Echo | SGP30 | 注意) 使用するセンサーSGP30はガスセンサーで、空気の汚れなどを示すVOC値を測定し、そこから等価二酸化炭素濃度（eCO2）を計算して出力するものであるため、正確なCO2濃度を計測できるものではありません。温度や湿度によっても影響される上、アルコールなどにも反応するため、あくまでも目安として使用してください。<br><br> ※ より正確に測定できるCO2センサーを用いた作り方も今後紹介する予定です。|
+|[M5StickC_SGP30](https://github.com/panasonic-corporation/doingio-ventilation-alert-docs/blob/master/M5StickC_SGP30_ja.md)| M5StickC | SGP30 | 注意) 使用するセンサーSGP30はガスセンサーで、空気の汚れなどを示すVOC値を測定し、そこから等価二酸化炭素濃度（eCO2）を計算して出力するものであるため、正確なCO2濃度を計測できるものではありません。温度や湿度によっても影響される上、アルコールなどにも反応するため、あくまでも目安として使用してください。<br><br> ※ より正確に測定できるCO2センサーを用いた作り方も今後紹介する予定です。|
+|[AtomEcho_SGP30](https://github.com/panasonic-corporation/doingio-ventilation-alert-docs/blob/master/AtomEcho_SGP30_ja.md)| ATOM Echo | SGP30 | 注意) 使用するセンサーSGP30はガスセンサーで、空気の汚れなどを示すVOC値を測定し、そこから等価二酸化炭素濃度（eCO2）を計算して出力するものであるため、正確なCO2濃度を計測できるものではありません。温度や湿度によっても影響される上、アルコールなどにも反応するため、あくまでも目安として使用してください。<br><br> ※ より正確に測定できるCO2センサーを用いた作り方も今後紹介する予定です。|
