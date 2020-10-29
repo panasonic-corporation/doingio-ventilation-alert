@@ -72,10 +72,7 @@ void setup() {
     while(1);
   }
   M5.dis.drawpix(0, 0xff0000);
-  Serial.println();
-  //SPIFFS.begin();
- 
-  Serial.printf("MP3 playback begins...\n");
+
   initSpeaker();
 }
  
@@ -99,18 +96,16 @@ void loop()
     M5.dis.drawpix(0, 0xff0000);
   } else if (sgp.eCO2 < low_threshold) {
     M5.dis.drawpix(0, 0xffff00);
-  } else if (sgp.eCO2 < high_threshold) {
+  } else {
     M5.dis.drawpix(0, 0x00ff00);
   }
   
   // check threshold
   if (sgp.eCO2 > high_threshold) {
     alert_flag = true;
-    //M5.dis.drawpix(0, 0x00ff00);
   }
   if (sgp.eCO2 < low_threshold) {
     alert_flag = false;
-    //M5.dis.drawpix(0, 0xff0000);
   }
 
   // play sound
@@ -120,8 +115,7 @@ void loop()
     }
   }
 
-
-  // for test
+  // change sound
   if (M5.Btn.wasPressed()) {
     sound_id++;
     if (sound_id > 2) {
