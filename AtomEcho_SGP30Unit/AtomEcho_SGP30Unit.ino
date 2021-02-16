@@ -15,7 +15,7 @@
 
 Adafruit_SGP30 sgp;
 int high_threshold = 1000;
-int low_threshold = 800;
+int low_threshold = 700;
 bool alert_flag = false;
 bool alert_flag_tmp = false;
 const unsigned char *wavList[] = {wav1, wav2, wav3};
@@ -63,21 +63,23 @@ void playWav(int idx) {
 
 void setup() {
   M5.begin(true, false, true);
-  delay(50);
-
+  M5.dis.setBrightness(10);
   Wire.begin(SDA, SCL);
-  if(!sgp.begin(&Wire)){
-    Serial.println("Sensor not found");
-    M5.dis.drawpix(0, 0x00ff00);
-    while(1);
+  while(1) {
+    if (!sgp.begin(&Wire)) {
+      Serial.println("Sensor not found");
+      delay(300);
+      M5.dis.drawpix(0, 0x00ff00);
+      delay(300);
+      M5.dis.drawpix(0, 0x000000);
+    } else {
+      break;
+    }
   }
-  M5.dis.drawpix(0, 0xff0000);
-
   initSpeaker();
 }
  
-void loop()
-{
+void loop() {
   M5.update();
 
   // checking sensor connection
@@ -86,30 +88,32 @@ void loop()
     return;
   }
 
+  uint16_t eco2 = sgp.eCO2;
+
   // serial print
   Serial.print("eCO2 ");
-  Serial.print(sgp.eCO2);
+  Serial.print(eco2);
   Serial.println(" ppm");
 
   // show indicator
-  if (sgp.eCO2 < 600) {
+  if (eco2 < low_threshold) {
     M5.dis.drawpix(0, 0xff0000);
-  } else if (sgp.eCO2 < low_threshold) {
+  } else if (eco2 < high_threshold) {
     M5.dis.drawpix(0, 0xffff00);
   } else {
     M5.dis.drawpix(0, 0x00ff00);
   }
   
   // check threshold
-  if (sgp.eCO2 > high_threshold) {
+  if (eco2 > high_threshold) {
     alert_flag = true;
-  }
-  if (sgp.eCO2 < low_threshold) {
+  } else if (eco2 < low_threshold) {
     alert_flag = false;
   }
 
   // play sound
   if (alert_flag && !alert_flag_tmp) {
+    Serial.println("play");
     for (int i = 0; i < 3; i++) {
       playWav(sound_id);
     }
