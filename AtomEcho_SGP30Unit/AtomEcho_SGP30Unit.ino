@@ -69,7 +69,7 @@ void setup() {
     if (!sgp.begin(&Wire)) {
       Serial.println("Sensor not found");
       delay(300);
-      M5.dis.drawpix(0, 0x00ff00);
+      M5.dis.drawpix(0, 0xff0000);
       delay(300);
       M5.dis.drawpix(0, 0x000000);
     } else {
@@ -97,11 +97,11 @@ void loop() {
 
   // show indicator
   if (eco2 < low_threshold) {
-    M5.dis.drawpix(0, 0xff0000);
+    M5.dis.drawpix(0, 0x00ff00);
   } else if (eco2 < high_threshold) {
     M5.dis.drawpix(0, 0xffff00);
   } else {
-    M5.dis.drawpix(0, 0x00ff00);
+    M5.dis.drawpix(0, 0xff0000);
   }
   
   // check threshold
